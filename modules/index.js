@@ -12,6 +12,8 @@ class Module {
     const stylemastercontroller = require('./stylemaster/stylemaster.controller');
     new stylemastercontroller(this.app);
 
+    const sewsummaryController =require('./sewsummary/sewsummary.controller');
+    new sewsummaryController(this.app);
    }
   }
   
